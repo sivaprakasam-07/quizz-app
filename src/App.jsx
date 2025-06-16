@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-import './App.css';
-import questionsData from './question.json';
+
 
 
 
