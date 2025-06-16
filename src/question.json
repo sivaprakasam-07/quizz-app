@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the fastest production car in the world?",
+        "options": ["Bugatti Chiron", "Koenigsegg Jesko", "Hennessey Venom F5", "SSC Tuatara"],
+        "correctAnswer": "Bugatti Chiron"
+    },
+    {
+        "question": "Which car company produces the Mustang?",
+        "options": ["Chevrolet", "Ford", "Dodge", "Toyota"],
+        "correctAnswer": "Ford"
+    },
+    {
+        "question": "What is the best-selling car of all time?",
+        "options": ["Toyota Corolla", "Volkswagen Golf", "Ford F-Series", "Honda Civic"],
+        "correctAnswer": "Toyota Corolla"
+    },
+    {
+        "question": "Which car brand is known for its prancing horse logo?",
+        "options": ["Lamborghini", "Ferrari", "Porsche", "Maserati"],
+        "correctAnswer": "Ferrari"
+    },
+    {
+        "question": "What does SUV stand for?",
+        "options": ["Sport Utility Vehicle", "Standard Utility Vehicle", "Sports Utility Van", "Super Utility Vehicle"],
+        "correctAnswer": "Sport Utility Vehicle"
+    },
+    {
+        "question": "What was the first mass-produced car?",
+        "options": ["Ford Model T", "Chevrolet Suburban", "Volkswagen Beetle", "Honda Accord"],
+        "correctAnswer": "Ford Model T"
+    },
+    {
+        "question": "Which car is often associated with the 'Back to the Future' movie?",
+        "options": ["DeLorean DMC-12", "Ford Mustang", "Chevrolet Camaro", "Porsche 911"],
+        "correctAnswer": "DeLorean DMC-12"
+    },
+    {
+        "question": "What is the name of the first car to have air conditioning?",
+        "options": ["Packard", "Cadillac", "Chrysler", "Ford"],
+        "correctAnswer": "Packard"
+    },
+    {
+        "question": "What is the most popular car color in the world?",
+        "options": ["Black", "White", "Red", "Blue"],
+        "correctAnswer": "White"
+    },
+    {
+        "question": "Which car brand uses the slogan 'The Ultimate Driving Machine'?",
+        "options": ["Mercedes-Benz", "BMW", "Audi", "Lexus"],
+        "correctAnswer": "BMW"
+    }
+]

@@ -1,0 +1,124 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to body */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Apply Playfair Display font to headings */
+  font-weight: 700; /* Bold */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Link hover color */
+  text-decoration: underline;
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: "Open Sans", sans-serif;
+}
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #333;
+}
+.quiz-app{
+width: 600px;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,2);
+border-radius: 8px;
+}
+.question-section{
+text-align: center;
+}
+.options{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 20px;
+}
+button{
+padding: 10px 15px;
+font-size: 16px;
+border-radius: 15px;
+background-color: #a457b4;
+border: 0px;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+button:hover{
+filter: brightness(1.2);
+}
+.timer{
+margin-top: 20px;
+font-size: 18px;
+color: #555;
+}
+.timer span{
+font-weight: 800;
+}
+.question-section h2{
+margin: 10px 0px;
+font-weight: 600;
+color: #2c5f82;
+}
+.question-section p{
+font-weight: 600;
+}
+.score-section{
+text-align: center;
+}
+.score-section h2{
+font-weight: 600;
+margin-bottom: 15px;
+}
+.score-section button{
+background-color:rgb(196, 6, 6)
+}
+.submit-btn{
+  margin-left: 200px;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(164, 87, 180, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(164, 87, 180, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(164, 87, 180, 0.8);
+  }
+}
+.quiz-app {
+  animation: glowing 2s infinite;
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quiz-app {
+  animation: glowing 2s infinite, slideIn 1s;
+}
